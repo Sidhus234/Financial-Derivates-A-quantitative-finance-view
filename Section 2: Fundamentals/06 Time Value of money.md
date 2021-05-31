@@ -68,3 +68,6 @@ It is discount factors, not interest rates, that represent most directly the fun
   </p>
 = Value of $1 Investment in t Years = Gross Retrun Realized at Time t
 
+- No investment in the economy can offer lower return than risk free return
+- Different interest rates, for instance with different compounding conventions, are similar to different choices of units for measuring the same fundamental quantity.
+- 
