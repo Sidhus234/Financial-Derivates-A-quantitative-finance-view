@@ -26,4 +26,4 @@
 - Interest rates have term structure. They are functions of loan term. You will be charged different interest rate if you borrow money for 5 years, than if you borrow money for 3 months
 - r(t) is notation used to denote the interest rate for borrowing money for a loan term of t
 	- For example: r(2) = annual interest rate for a 2 year loan
-![plot](../Images/S2-Interest Rate Structures.PNG)
+![plot](.../Images/S2-Interest Rate Structures.PNG)
