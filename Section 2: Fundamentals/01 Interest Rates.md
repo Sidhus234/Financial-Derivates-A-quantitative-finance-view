@@ -26,4 +26,22 @@
 - Interest rates have term structure. They are functions of loan term. You will be charged different interest rate if you borrow money for 5 years, than if you borrow money for 3 months
 - r(t) is notation used to denote the interest rate for borrowing money for a loan term of t
 	- For example: r(2) = annual interest rate for a 2 year loan
-![plot](.../Images/S2-Interest Rate Structures.PNG)
+
+<img src="../Images/S2-Interest Rate Structures.PNG" alt="Interest Rate Structures"/>
+
+- r(t, T) donates the rate maturing at date T observed at time t. This implies the term to maturity is T-t
+
+# Forces that shape the Interest Rates:
+- Interest rates are prices negotiated between money lenders and money borrowers on markets
+- Borrower wants to borrow money as cheaply as possible, and so will take the lowest interest rate possible
+- Lender wants to earn highest possible interest rate, but the primary cost to the lender is the risk of loss of investment.
+- __Risk__ plays is central role in determing the interest rates
+- __Riskier investments__ require higher __interest rates__
+- __Risks__ are different for different term structures. Longer tenures have higher risk
+- Model that fits reality well is to regard central banks as setting a base level for interest rates. Other interest rate levels are then relized as adjustments to central bank rates.
+<img src="../Images/S2-Central bank policy rates.PNG" alt="Central bank policy rates"/>
+
+# Risk Free Interest Rates:
+- Interest rates when there is no risk (you get your investment back and hence there is no risk)
+- __Risk free rates__ is a fanciful idea but is core concept of derivative pricing, used universally in the subject.
+- __SECURED OVERNIGHT FINANCING RATE (SOFR)__ comes very close to being a actual risk free interest rate
