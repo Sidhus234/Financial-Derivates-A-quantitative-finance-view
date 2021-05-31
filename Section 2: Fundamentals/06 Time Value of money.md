@@ -12,30 +12,37 @@
 <p align="center">
 <img src="https://render.githubusercontent.com/render/math?math=PV = \frac{X}{(1 %2B r)^t}">
 </p>
+
 - Present values can be expressed in terms of other interest rates with different compounding conventions.
   - Suppose _(r_m)_ is periodically compounded interest rate, with compounding frequency _m_.
   - The future value relation
 <p align="center">
 <img src="https://render.githubusercontent.com/render/math?math=(1 %2B \frac{r_m}{m})^{mt} PV = X">
 </p>
+
   - implies the present value of X is
 <p align="center">
 <img src="https://render.githubusercontent.com/render/math?math=PV = \frac{X}{(1 %2B \frac{r_m}{m})^{mt}}">
 </p>
+
 - If _(r_c)_ is continously compounded then we have
 <p align="center">
 <img src="https://render.githubusercontent.com/render/math?math=e^{r_ct} PV = X">
 </p>
+
   - which implies
 <p align="center">
 <img src="https://render.githubusercontent.com/render/math?math=PV = e^{-r_ct}X">
   </p>
 
 # Discount Factors
+
 - Present value can be writted as
+
 <p align="centre">
   <img src="https://render.githubusercontent.com/render/math?math=PV = d(t)X">
   </p>
+  
 where
 <p align="centre">
 <img src="https://render.githubusercontent.com/render/math?math=d(t) = \frac{1}{(1 %2B r)^t}">
@@ -70,4 +77,3 @@ It is discount factors, not interest rates, that represent most directly the fun
 
 - No investment in the economy can offer lower return than risk free return
 - Different interest rates, for instance with different compounding conventions, are similar to different choices of units for measuring the same fundamental quantity.
-- 
