@@ -41,3 +41,4 @@
 <img src="https://render.githubusercontent.com/render/math?math=P = \sum_{i=1}^{N} d(t_i)c_i">
 </p>
 
+- The bond price we have calculated in this lecture is what is known as the __dirty price__. On the secondary bond market, it is not the price that bonds trade at. It does not take into account the accrued interest from the earliest coupon payment.
