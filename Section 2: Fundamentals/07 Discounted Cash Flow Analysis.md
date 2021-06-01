@@ -47,3 +47,12 @@
 <p align="center">
   <img src="https://render.githubusercontent.com/render/math?math=PV= \sum_{i=1}^{N} \frac{c_i}{(1 %2B r(t_i))^t_i}">
 </p>
+
+#### Discounted Cash Flow Analysis - Continuous Compounding
+<p align="center">
+  <img src="https://render.githubusercontent.com/render/math?math=PV= e^{-\rho(t_1)t_1} c_1 %2B e^{-\rho(t_1)t_1} c_1 %2B ... e^{-\rho(t_N)t_N} c_N">
+</p>
+
+<p align="center">
+  <img src="https://render.githubusercontent.com/render/math?math=PV= \sum_{i=1}^{N} e^{-\rho(t_i)t_i} c_i">
+</p>
