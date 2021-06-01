@@ -42,3 +42,5 @@
 </p>
 
 - The bond price we have calculated in this lecture is what is known as the __dirty price__. On the secondary bond market, it is not the price that bonds trade at. It does not take into account the accrued interest from the earliest coupon payment.
+
+- NOTE: While it is customary to refer to the interest payments made to the bondholder themselves as coupons, the coupan rate is the annualized interest rate that the bond pays. In other words the coupon rate refers to the total amount of interest paid by the bond in 1 year, regardless of how many payments in a year that interest is split up into.
