@@ -1,1 +1,1 @@
-# Financial-Derivates-A-quantitative-finance-view-Udemy-
+# Financial-Derivates-A-quantitative-finance-view
