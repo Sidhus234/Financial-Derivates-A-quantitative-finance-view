@@ -61,7 +61,7 @@ Suppose that on Monday we are about to initiate a 1 week loan with a counter par
 The 1 week compound SOFR rate is then
 
 <p align="center">
-<img src="https://render.githubusercontent.com/render/math?math=S(1,6) = (1.00027030048022143 - 1) \times \frac{360}{7} = 0.0139014 = 1.39%">
+<img src="https://render.githubusercontent.com/render/math?math=S(1,6) = (1.00027030048022143 - 1) \times \frac{360}{7} = 0.0139014">
 </p>
 
 A SOFR calculator and data is available at the [website](nwm.realisedrate.com/SOFR)
@@ -84,15 +84,15 @@ A SOFR calculator and data is available at the [website](nwm.realisedrate.com/SO
 - Banks this have the freedpm to replace LIBOR with rates they deem appropriate for different markets, and many are seeking credit sensitive alternatives.
 - One such credit sensitive rate is AMERIBOR, a USD rate somewhat similar to SONIA in being based on unsecured transactions.
 - Other credit sensitive alternatives include:
-  - [ICE Bank Yield Index] (https://www.theice.com/iba/bank-yield-index)
-  - [BSBY (Bloomberg)] (https://www.bloomberg.com/professional/introducing-the-bloomberg-short-term-bank-yield-index-bsby/)
-  - [IHS Markit Credit Spread Adjustment] (https://ihsmarkit.com/research-analysis/publish-daily-credit-spread-adjustment-for-sofr-from-Q2-2021.html)
+  - [ICE Bank Yield Index](https://www.theice.com/iba/bank-yield-index)
+  - [BSBY (Bloomberg)](https://www.bloomberg.com/professional/introducing-the-bloomberg-short-term-bank-yield-index-bsby/)
+  - [IHS Markit Credit Spread Adjustment](https://ihsmarkit.com/research-analysis/publish-daily-credit-spread-adjustment-for-sofr-from-Q2-2021.html)
 
 # Present and Future of USD LIBOR:
 - __Transition:__ Due to difficulties like the ones noted above, SOFR adoption in markets has been slow.
 - For many cash products (eg. bilateral business loans) transition to SOFR has been anemic, with banks still offering LIBOR as their only floating rate option
 - It has in turn been very slow in derivative markets with SOFR linked products (futures, swaps) still being a small percentage of LIBOR linked products.
 - As of spring 2021, it is not clear what the USD rate world will finally transition to.
-
+- One possibility is a multi-rate world, with SOFR sharing the space with alternatices like AMERIBOR
 
 
