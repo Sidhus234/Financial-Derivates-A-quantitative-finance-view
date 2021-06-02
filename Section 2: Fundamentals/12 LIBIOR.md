@@ -36,4 +36,30 @@
 </p>
 
 # Meaning of LIBOR:
-- LIBOR interest rate reflect the borrowin
+- LIBOR interest rate reflect the borrowing costs banks pay for unsecured borrowing from other banks for loan terms ranging from overnight to 1 year.
+- LIBOR rates thus have term structure reflecting market negotiated for terms to maturity up to 1 year.
+- As such, LIBOR rates include a premium for credit risk (the chance the bank will not pay back the loan).
+- All together, the LIBOR rates measure banks borrowing costs and provide a gauge of the overall health of the banking sector.
+
+## Flaes of LIBOR
+- Financial crisis of 2008 revealed that LIBOR is a flawed instrument vulnerable to abuse (as seein in the [LIBOR scandal](https://www.investopedia.com/terms/l/libor-scandal.asp))
+- It has deteriorted further sicne the financial crisis as the (US) interbank lending market is estimated to have dropped from $100 billion in daily transactions before the financial crisis to less than $5 billion in 2018.
+- The panel banks thus base their submissions on models and expert judgement, not market transactions, making LIBOR a poor representative of the market.
+- As a result, LIBOR is being phased out, and is not scheduled to be replaced with new alternative reference rates _(ARRs)_ for all non-USD currencies by year end 2021, and for USD by June 2023.
+
+## Other IBORs:
+- There are other "interbank offered rates" beside LIBOR used in global financial system
+- The two most significant are:
+  - EURIBOR: in Eurozone
+  - TIBOR: in Japan
+
+- They are both similar to LIBOR in that they are term rates measuring banks' interbank borrowing costs, and are constructed using a similar methodology.
+- Bot EURIBOR and TIBOR were reformed in recent years to make them more representative of markets and more robust.
+- Currently, there is no plan for either of these rates to be discontinued, and their future remains uncertain. They may continue to exist alongside ARRs in other currencies.
+
+## Timeline for LIBOR Decomissioning:
+- As of March, 2021, the Financial Conduct Authority of the UK has announced the timeline for the termination of LIBOR.
+- 12/31/2021: After this date, panel banks will not be compelled to submit LIBOR rates for GBP, EUR, JPY, CHF, and the 1 week and 2 month tenor for USD.
+- 6/30/2023: All remaining USD LIBOR tenors will not be compelled beyond this date.
+- Synthetic LIBOR: The FCA may compel IBA, the current LIBOR administrator, to publish a "synthetic" version of LIBOR for certain tenors for GBP and JPY beyond 12/31/2021, and for USD beyond 06/30/2023. These rates will be deemed "nonrepresentative".
+
