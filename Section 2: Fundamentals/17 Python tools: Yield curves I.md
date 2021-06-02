@@ -104,14 +104,14 @@ The curve class also has methods for visualization.  These require that Numpy an
     yield_curve.plot_yields()
 
 
-<img src="../Images/S2_yield_curve.PNG" alt="Yield Curve"/>
+<img src="../Images/S2_yield_curve.png" alt="Yield Curve"/>
 
 
 will plot the continuously compounded yields and
 
     yield_curve.plot_discount_factors()
 
-<img src="../Images/S2_discount_factors.PNG" alt="Discount Factors"/>
+<img src="../Images/S2_discount_factors.png" alt="Discount Factors"/>
 
 will plot the discount factors.
 
@@ -161,13 +161,13 @@ One may also see this by plotting the discount factors using the plotting functi
 
     yc.plot_discount_factors()
     
-<img src="../Images/S2_discount_factor_1_interestrate_only.PNG" alt="Only 1 interest rate"/>
+<img src="../Images/S2_discount_factor_1_interestrate_only.png" alt="Only 1 interest rate"/>
 
 One should invoke both this and the other plotting method
 
     yc.plot_yields()
     
-<img src="../Images/S2_yields_one_interestrate_only.PNG" alt="Only 1 interest rate"/>
+<img src="../Images/S2_yields_one_interestrate_only.png" alt="Only 1 interest rate"/>
 
 to get a feel for how yield curves really behave.
 
