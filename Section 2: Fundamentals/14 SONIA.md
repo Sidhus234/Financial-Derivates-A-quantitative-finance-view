@@ -55,3 +55,11 @@ where S(t) is the SONIA rate for date t, and <img src="https://render.githubuser
 - In the UK, there is strong encouragement from regulators to use SONIA compounded in arrears for most financial products.
 - For the small family of products that UK regulators are willing to entertain the use of term SONIA, there are providers currently publishing term SONIA numbers (Refinitiv, ICE) based on SONIA linked swaps and other derivatives.
 
+## LIBOR Transition Timeline:
+- The Bank of England has primulgated the following timeline for the final dissolution of sterling LIBOR:
+<ol>
+  <li>Q1 2021: Issue of new sterling LIBOR linked loans, bonds, securitizations, and linear derivatives (expiring after 2021) should cease. All legacy contracts referencing sterling LIBOR should be identified and their conversion accelerated.</li>
+  <li>Q2 2021: Issue of new sterling LIBOR linked nonlinear derivatives (expiring after 2021) should cease</li>
+  <li>Q3 2021: Complete active conversion of legacy sterling LIBOR products</li>
+  <li>Q4 2021: Publication of sterling LIBOR (as a market representative rate) is halted immediately.</li>
+  </ol>
