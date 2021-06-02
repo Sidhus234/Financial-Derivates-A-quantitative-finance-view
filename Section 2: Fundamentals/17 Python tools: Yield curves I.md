@@ -102,8 +102,10 @@ Yield curve objects can be used to price bonds.  If we have a bond object we may
 The curve class also has methods for visualization.  These require that Numpy and Matplotlib be available.  invoking
 
     yield_curve.plot_yields()
-    
+
+
 <img src="../Images/S2_yield_curve.PNG" alt="Yield Curve"/>
+
 
 will plot the continuously compounded yields and
 
