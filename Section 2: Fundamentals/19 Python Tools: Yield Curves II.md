@@ -1,3 +1,7 @@
+# Solved examples in python
+
+Python file can be found [here](./yield_curves_II.py)
+
 Yield curves may be built from bonds, as described in the lectures.  To do this, invoke the curve_factory function in the following way:
 
     import fixedincome as fi
