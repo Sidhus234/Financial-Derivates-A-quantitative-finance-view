@@ -75,3 +75,10 @@ These results should agree closely with what was found in lecture.  Of course an
     -- Bond3 Price: 10506.999999999998
 
 These should produce unsurprising results.
+
+# Sample Problems solved in Python
+<ol>
+    <li>[Problem 1](./Python tools - Problem 1.ipynb)</li>
+    <li>[Problem 2](./Python tools - Problem 2.ipynb)</li>
+    <li>[Problem 3](./Python tools - Problem 3.ipynb)</li>
+    </ol>
