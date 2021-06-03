@@ -1,3 +1,7 @@
+# Solved examples in python
+
+Python file can be found [here](./yield_curves_I.py)
+
 The fixed income module contains a class for yield curves.  Import the fixed income module with
 
     import fixedincome as fi
