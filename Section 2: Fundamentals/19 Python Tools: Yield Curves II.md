@@ -78,7 +78,7 @@ These should produce unsurprising results.
 
 # Sample Problems solved in Python
 
-- [Problem 1](./Python tools - Problem 1.ipynb)</li>
-- [Problem 2](./Python tools - Problem 2.ipynb)</li>
-- [Problem 3](./Python tools - Problem 3.ipynb)</li>
+- [Problem 1](./Python tools - Problem 1.ipynb)
+- [Problem 2](./Python tools - Problem 2.ipynb)
+- [Problem 3](./Python tools - Problem 3.ipynb)
 
