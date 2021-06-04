@@ -103,7 +103,7 @@ Suppose we hold a portfolio consisting o 100 shares of GE, 25000 Euros, and a de
 - To evaluate the portfolio value in 1 year:
 
 <p align="center">
-<img src="https://render.githubusercontent.com/render/math?math=V(t) = 100 \times 15 %2B 25000 \times 1.25 \times e^0.07} - 30000 e^{0.04} = 3791">
+<img src="https://render.githubusercontent.com/render/math?math=V(t) = 100 \times 15 %2B 25000 \times 1.25 \times e^{0.07} - 30000 e^{0.04} = 3791">
 </p>
 
 ## Dividends
@@ -137,3 +137,47 @@ Suppose we hold a portfolio consisting o 100 shares of GE, 25000 Euros, and a de
 
 - We would never model a commodity asset as if the convenience yield were a dividend that could be reinvested in holdings of the asset.
 - The primary application of these models is to pricing forward and future contracts.
+
+
+## Long and Short Positions
+- The idea of taking a long or short positions on an asset is a generalization of buying or selling an asset.
+- In fact, the most straightforward way to take a long position is to buy it, and the easiest way to short an asset is to sell it - if you already own it.
+- However, an innvestor can "short" as asset without owning it, though it is not always straightforward to do so.
+- However it is implemented, taking a short positions means you will profit if the value of the asset declines. The time to take a short position in an asset is when you think the asset's price is going to fall.
+- The cleanest and most definitive way to define long and short positions in an asset is in terms of exposures.
+- __Long Positions__ on a particular asset if when the value of our portfolio goes up when the value of the asset goes up.
+- __Short Positions__ on a particular asset is when the value of our portfolio goes down when the value of the asset goes up.
+- With "long" and "short" so defined it is worth noting that it is often not very easy to take either position directly in the cash market, either practically or even in principle.
+- It is often easies to take a long or short position on some asset using derivatives.
+- But there are ways to effect such positions directly in the cash market.
+- Long positions are most straightforward. The simplest way to take a long position in an asset is simply to buy it. This, however, can be very expensive.
+- Short positions are more problematic. It may not be straighforward to short certain assets, but certain asset classes do accomodate short positions.
+
+#### Shorting Stocks:
+ Stock exxchanges facilitate shorting individual stocks using the following mechanism:
+   - The investor can borrow the stock from another investor, the stock's rightful owner.
+   - The investor may then sell the stock on the market, receiving its current market value.
+   - The investor is responsible for reimbursing the stock owner for any dividends earned while shorting.
+   - The investor is obligated to return the stock to its rightful owner sometime in the future.
+ - If we follow this procedure, we profit when the stock price falls, by the amount that it falls, since we will be able to buy it back for that much cheaper.
+ - A few things to note abpout the stock shorting precedure just outlined:
+  - Upon selling the stock when the position is entered we immediately receive the value of the stock in cash
+  - For the life of the position, the obligation to return the stock to its rightful owner has the role of a liability, analogous to a debt (we are borrowing the stock).
+  - The mechanisms for taking short positions in other asset classes are not necessarily the same, but we will assume generally that short positions have these properties for all other asset classes.
+
+
+#### Short positions in portfolios:
+Short positions in an asset can usually be represented in portfolios with a negative allocation.
+- The mechnaisms for taking short positions in other asset classes vary.
+- To take a short position in a foreign currency, one may simply borrow money in the currency.
+- There are a variety of instruments with which one may short bonds. Reverse repos (repurchase agreements) is one of them.
+- And there are a variety of vehicles available for taking long or short positions on interest rates (though one may simply borrow or lend money).
+- Commodities are perhaps the most problematic asset class for taking cash short positions, but there are vehicles avaialblae for this for instance various ETF (exchange traded funds) products
+
+### Example 5:
+Suppose we have a portfolio that is long 500 shares of IBM and short 300 shares of GE. Whatis the value of this portfolio at time _t_ if <img src="https://render.githubusercontent.com/render/math?math=S_{IBM}(t)"> is the share price of IBM and <img src="https://render.githubusercontent.com/render/math?math=S_{GE}(t)"> is the share price of GE, both as a function of time?
+
+<p align="center">
+<img src="https://render.githubusercontent.com/render/math?math=V(t) = 500 \times S_{IBM}(t) - 300 \times (S_{GE}(0) - S_{GE}(t)">
+</p>
+
