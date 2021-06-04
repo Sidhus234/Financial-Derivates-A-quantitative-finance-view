@@ -75,3 +75,33 @@ Suppose in the previous example that we wanted to include a debt of $7000 in our
   - If an investor held this portfoliom their net worth would increase if they got free of it.
   - If a portfolio's value _V(T) > 0_ then the value of the assets exceeds the value of the liabilities. An investor who owns the portfolio can sell it for _V(t)_ in cash.
   - I f_V(t) < 0_, then the liabilities in the portfolio exceed the assets, and the investor would have to pay someone else to take the portfolio.
+
+## Foreign Currencies:
+- Foreign currencies are a famialiar asset in soceity. It is simply the cash unit used in foreign nations.
+- We take _S(t)_ to be the exchange rate between our home currency and some foreign currency at time _t_.
+- _S(t)_ is simply the price, in the home currency, of one unit of the foreign currency.
+- A holding in a portfolio of <img src="https://render.githubusercontent.com/render/math?math=\alpha"> units of the foreign currency at _t = 0_ would be represented in a portfolio's value by a term (assumption: foreign currency is earning foreign risk free interest rate)
+
+<p align="center">
+<img src="https://render.githubusercontent.com/render/math?math=\alpha S(0)">
+</p>
+
+- We need notation for interest rates in different currencies. We denote the interest rate in a foreign currency by <img src="https://render.githubusercontent.com/render/math?math=r_f">
+- When we need to be explicity about the interest rate in home currency, we will denote it <img src="https://render.githubusercontent.com/render/math?math=r_d">
+- Using this notation, a holding of _N_ units of domestic currency is represented by <img src="https://render.githubusercontent.com/render/math?math=Ne^{r_dt}">
+- Similarly, we assume that holdings of foreign currency are invested at the foreign risk free rate. So a holding of _K_ units of a foreign currency is worth <img src="https://render.githubusercontent.com/render/math?math=Ke^{r_ft}">
+- when accounted in the foreign currency, and so, when accounted in the home currency is represneted by a term <img src="https://render.githubusercontent.com/render/math?math=K e^{r_ft}S(t)">
+
+### Example 4:
+Suppose we hold a portfolio consisting o 100 shares of GE, 25000 Euros, and a debt of USD $30,000 at time t=0. Write down the expression for the value of this portfolio at any time _t_. Suppose that the continously compounded risk free rate is 7% in Euros and 4% in USD. Suppose that in 1 year GE stock is $15/share. And suppose that in 1 year the Euro/USD exchange rate of $1.25/Euro.What is the value of portfolio in 1 year?
+- Let <img src="https://render.githubusercontent.com/render/math?math=r_d"> be the domestic USD interest rate, <img src="https://render.githubusercontent.com/render/math?math=r_f"> be the Eurozone interest rate, <img src="https://render.githubusercontent.com/render/math?math=S_{GE}(t)"> the share price fo GE, and _F(t)_ the Euro/USD exchange rate.
+- 
+<p align="center">
+<img src="https://render.githubusercontent.com/render/math?math=V(t) = 100 \times S_{GE}(t) %2B 25000 \times F(t) e^{r_ft} - 30000 e^{r_dt}">
+</p>
+
+- To evaluate the portfolio value in 1 year:
+
+<p align="center">
+<img src="https://render.githubusercontent.com/render/math?math=V(t) = 100 \times 15 %2B 25000 \times 1.25 \times e^0.07} - 30000 e^{0.04} = 3791.56">
+</p>
