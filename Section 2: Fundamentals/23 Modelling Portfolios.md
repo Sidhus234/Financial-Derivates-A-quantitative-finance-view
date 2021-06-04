@@ -181,3 +181,59 @@ Suppose we have a portfolio that is long 500 shares of IBM and short 300 shares 
 <img src="https://render.githubusercontent.com/render/math?math=V(t) = 500 \times S_{IBM}(t) - 300 \times (S_{GE}(0) - S_{GE}(t)">
 </p>
 
+### Example 6:
+Suppose we are looking at 2 stock, Company A and Company B. Company A stock is currently trading at $50 per share and Company B stock is currently trading at $35 per share. Assume neither stock pays dividends. We believe that Company A is overpriced and Company B is underpriced, and so we want to short Company A and go long on Company B. Suppose we decide to short 80 shares of Company A and to go long, i.e. buy, 100 shares of Company B. Assume that any holdings of cash are invested at the risk free rate of 6^. Write down the value of this portfolio after we build it.
+
+- Denote the share price of Company A and Company B by <img src="https://render.githubusercontent.com/render/math?math=S_A(t)\:\:and\:\:S_B(t)"> 
+- Shorting the 8- shares of Company A will result in cash receipt of $50 per share, so the short position results in
+<p align="center">
+<img src="https://render.githubusercontent.com/render/math?math=Cash Receipt = 80 \times 50 = 4000">
+</p>
+
+- Purchasing 100 shares of Company B requires an expenditure of %35 per share or
+
+<p align="center">
+<img src="https://render.githubusercontent.com/render/math?math=Expenditure = 100 \times 35 = 3500">
+</p>
+
+- THis leaves a cash holding of $500 left over that will be invested at the risk free (continuously compounded) rate of _r_ = ^% = 0.06
+- Thus, having built the portfolio, the value at time t is
+
+<p align="center">
+<img src="https://render.githubusercontent.com/render/math?math=V(t) = 100 S_B(t) - 80 S_B(t) %2B 500 e^{0.06t}">
+</p>
+
+Now suppose it is 1 year later and our predictions have been vindicated. Company A stock is now trading at $20 per share and Company B is at $70 per share. Suppose we would like to now close out the short position by expect Company B to keep rising we would luke to put all available cash into the long position in Company B. Explain the operations we need to take to do this, and write down the value function for the new portfolio.
+- To close out the short position we must return the 80 shares of Company A we shorted to their rightful owner. So we must purchase them on the market.
+- With Company A shares trading at $20 purchasing back the 80 shares we need costs
+
+<p align="center">
+<img src="https://render.githubusercontent.com/render/math?math=Total cost = 80 \times 20 = 1600">
+</p>
+
+- Our cash holdings is now worth
+
+<p align="center">
+<img src="https://render.githubusercontent.com/render/math?math=500 e^{0.06t} = 531">
+</p>
+
+- which leaves an additional $1069 needed to buy back the Company A shares.
+- We must liquidate enough of our holdings of Company B stock to raise these additional funds.
+- Selling 16 shares of Company B at $70/share raises
+
+<p align="center">
+<img src="https://render.githubusercontent.com/render/math?math=Cash Receipt = 16 \times 70 = 1120">
+</p>
+
+- Combining two sources of cash, we have
+
+<p align="center">
+<img src="https://render.githubusercontent.com/render/math?math=Total Cash = 531 %2B 1120 = 1651">
+</p>
+
+- From these funds we may take the $1600 necessary to buy back the 80 shares of Company A, leaving $51 left over.
+- We repurchase the 80 shares of Company A from these funds, return to their rightfule owner, and so close out the short position. We retain 84 shares of Company B and the residual cash holdings of $51. We continue to invest the cash at the risk free rate, so after carrying out these transactions our portfolio now has value:
+
+<p align="center">
+<img src="https://render.githubusercontent.com/render/math?math=V(t) = 84 S_B(t)  %2B 51 e^{0.06(t-1)}\:\:for\:\:t\:\gt\:1">
+</p>
