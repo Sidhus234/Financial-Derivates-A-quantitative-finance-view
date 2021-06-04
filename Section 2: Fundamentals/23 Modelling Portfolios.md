@@ -105,3 +105,35 @@ Suppose we hold a portfolio consisting o 100 shares of GE, 25000 Euros, and a de
 <p align="center">
 <img src="https://render.githubusercontent.com/render/math?math=V(t) = 100 \times 15 %2B 25000 \times 1.25 \times e^0.07} - 30000 e^{0.04} = 3791">
 </p>
+
+## Dividends
+- If a stock, with price _S(t)_, pays dividends, we have seen they can be measured as a dividend yield. 
+- The dividend yield could be modelled as a continously compounded yield _y_, acting like an interest rate.
+  - Suppose we start at time _t_ = 0 with an initial allocation of <img src="https://render.githubusercontent.com/render/math?math=\alpha"> to the stock.
+  - Suppose all dividends are reinvested into the stock holdings.
+  - Then, in analogy with the foreign exchange case, the allocation at time _t_ grows to 
+
+<p align="center">
+<img src="https://render.githubusercontent.com/render/math?math=\alpha e^{yt}">
+</p>
+  - and the investment is worth
+
+<p align="center">
+<img src="https://render.githubusercontent.com/render/math?math=\alpha e^{yt} S(t)">
+</p>
+
+- Modelling dividends for individual stocks this way is sometimes done for convenience, especially in derivate models.
+- Modelling dividends with a continuous yield is most appropriate for stock indexes, or stock portfolios. For an individual stock a more accurate model is simply to model the dividend as a lump sum payment.
+- The primary application of these models is to pricing forward and future contracts.
+
+## Commodities:
+  - Covience yields can be modelled as a continously compounded return _y_.
+  - Storage costs might be modelled as a continuously compounded cost _s_.
+  - So, an investment in <img src="https://render.githubusercontent.com/render/math?math=\alpha"> units of a commodity, with unit cost _C(t)_ could be modelled as
+
+<p align="center">
+<img src="https://render.githubusercontent.com/render/math?math=\alpha e^{(y-s)t}C(t)">
+</p>
+
+- We would never model a commodity asset as if the convenience yield were a dividend that could be reinvested in holdings of the asset.
+- The primary application of these models is to pricing forward and future contracts.
