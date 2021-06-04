@@ -103,5 +103,5 @@ Suppose we hold a portfolio consisting o 100 shares of GE, 25000 Euros, and a de
 - To evaluate the portfolio value in 1 year:
 
 <p align="center">
-<img src="https://render.githubusercontent.com/render/math?math=V(t) = 100 \times 15 %2B 25000 \times 1.25 \times e^0.07} - 30000 e^{0.04} = 3791.56">
+<img src="https://render.githubusercontent.com/render/math?math=V(t) = 100 \times 15 %2B 25000 \times 1.25 \times e^0.07} - 30000 e^{0.04} = 3791">
 </p>
