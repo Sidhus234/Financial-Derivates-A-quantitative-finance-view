@@ -54,7 +54,7 @@
 - Step 2: Suppose
 
 <p align="center">
-<img src="https://render.githubusercontent.com/render/math?math=K_T \th e^{rT}S(0)">
+<img src="https://render.githubusercontent.com/render/math?math=K_T \lt e^{rT}S(0)">
 </p>
 
 - Then construct an arbitrage portfolio as follows:
