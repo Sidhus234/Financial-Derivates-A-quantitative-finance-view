@@ -42,7 +42,7 @@
 - The short position value is then
 
 <p align="center">
-<img src="https://render.githubusercontent.com/render/math?math=-V(t) = e^{-r(T-T)}K_T - S(T)">
+<img src="https://render.githubusercontent.com/render/math?math=-V(t) = e^{-r(T-t)}K_T - S(T)">
 </p>
 
 - In particular, the value of the forward contract today is _V(0)_. The forward price <img src="https://render.githubusercontent.com/render/math?math=K_{\tau}"> is set so that the value of the forward contract today is 0, ie by setting _V(0) = 0._
@@ -65,7 +65,7 @@
 - The value of the short position at tie _t_ is
 
 <p align="center">
-<img src="https://render.githubusercontent.com/render/math?math=-V(t) = e^{-r(T-T)}K_T - S(T)">
+<img src="https://render.githubusercontent.com/render/math?math=-V(t) = e^{-r(T-t)}K_T - S(T)">
 </p>
 
 - The forward price is (assuming we contract at time _t_ =0)
