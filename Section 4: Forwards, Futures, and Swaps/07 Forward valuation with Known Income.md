@@ -71,8 +71,8 @@ __Remark:__ In our treatment of futures contracts this same notation will be use
 
 <p align="center">
 <img src="https://render.githubusercontent.com/render/math?math=V(t) = (K_T(t) - K) e^{-r(T-t)}"><br>
-  <img src="https://render.githubusercontent.com/render/math?math=V(t) = ((S(t) - I(t))e^{r(T-t) - K)e^{-r(T-t)"><br>
-  <img src="https://render.githubusercontent.com/render/math?math=V(t) = S(t) - I(t) - Ke^{-r(T-t)"><br>
+  <img src="https://render.githubusercontent.com/render/math?math=V(t) = ((S(t) - I(t))e^{r(T-t)} - K)e^{-r(T-t)}"><br>
+  <img src="https://render.githubusercontent.com/render/math?math=V(t) = S(t) - I(t) - Ke^{-r(T-t)}"><br>
 </p>
 
   giving the value of the long position in the forward contract at time _t_.
