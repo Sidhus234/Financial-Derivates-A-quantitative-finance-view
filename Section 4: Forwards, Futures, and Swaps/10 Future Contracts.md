@@ -35,4 +35,5 @@
 - Futures are held primarily for the exposure they provide to the underlying asset, for risk management or speculation purposes and also for leverage.
 - Futures contracts reliably provide this exposure to the underlying because futures prices track the cash price closely.
 - The close relationship between futures and spot prices is a direct consequence of the linkage between them implied by the possibility of delivery.
-- 
+
+
