@@ -1,4 +1,4 @@
-
+# Cash and Carry Arbitrage
 - Forward prices may be deduced from two arbitrage strategies:
   - The cash and carry arbitrage
   - The reverse cash and carry arbitrage
@@ -174,3 +174,40 @@ Now suppose you enter a short position in the contract using the computed forwar
 - If at expiration the bond is trading at _S(T)_ = $960 then the value of this payoff is $941.33 - $960 = -18.67 < 0
 - The payoff is negative because we receive less than the asset worth.
 - If at expiration the bond is trading at _S(T)_ = $930 then the value of this payoff is $941.33 - $930 = $11.33 > 0. The payoff is positive because we have been paid more than the bond is worth.
+
+
+## Example A stock (No Dividends)
+Suppose we intend to buy a stock (paying no dividends) currently trading for $150. We intend to buy the stock in 9 months when funds are available. We wish toenter a long forward contract. The risk free interest rate is _r_ = 4%. What is the forward price? What is the value of the forward contract in 3 months if the stock is now trading for $130? Has the position lost or gained value? What if the stock were instead trading for $170?
+
+- The contract expires at _T_ = 0.75 (9 months)
+- The spot price of the stock is _S(0)_ = $150
+- The risk free rate _r_ = 4% = 0.04
+- We use this data in our forward pricing formulas.
+
+- Recall our formula for the forward price is <img src="https://render.githubusercontent.com/render/math?math=K = S(0) e^{rT}"> (dropping the subscript on _K_). Thus, using our given data the forward price is
+
+<p align="center">
+<img src="https://render.githubusercontent.com/render/math?math=K = e^{(0.04)(0.75)}(150) = 154.57">
+</p>
+
+- This will then be the contracted forward price.
+- As a result, the value of the position when we enter it will be _V(0)_ = 0.
+- Now we compute the value of the position in 3 months _V(0.25)_
+- Case 1:
+
+  - We are given that the valye of the stock is _S(0.25)_ = $130
+
+<p align="center">
+<img src="https://render.githubusercontent.com/render/math?math=V(0.25) = S(0.25) - e^{-r(T-0.25)}K = 130 - e^{-0.04(0.75-0.25)}(154.57) = -21.51">
+</p>
+  - The negative value indicates that the long position has lost money.
+
+- Case 2:
+
+  - We are given that the valye of the stock is _S(0.25)_ = $170
+
+<p align="center">
+<img src="https://render.githubusercontent.com/render/math?math=V(0.25) = S(0.25) - e^{-r(T-0.25)}K = 170 - e^{-0.04(0.75-0.25)}(154.57) = 18.49">
+</p>
+  - The positive value indicates that the long position shows a profit.
+  - When we are in long position (buyer) we have locked in a price to buy the asset, and if the value goes down our forward position loses, but if it goes up our forward position gains. The exact opposite would happen in a short position.
