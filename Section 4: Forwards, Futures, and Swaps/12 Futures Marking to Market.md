@@ -8,7 +8,8 @@
     - In the marking to market pricess, the short position would be considered to have gained by <img src="https://render.githubusercontent.com/render/math?math=K_T(t_1) - K_T(t_2) \gt 0">
     - Thus at the end of day 2, the exchange would make a cash payment ot the short's account in the amount of <img src="https://render.githubusercontent.com/render/math?math=K_T(t_1) - K_T(t_2)">
 
-  - __Case 2:__Suppose the futures price declines: <img src="https://render.githubusercontent.com/render/math?math=K_T(t_2) \gt K_T(t_1)">
+
+  - __Case 2:__ Suppose the futures price declines: <img src="https://render.githubusercontent.com/render/math?math=K_T(t_2) \gt K_T(t_1)">
     - Then the seller has a contracted price, namely <img src="https://render.githubusercontent.com/render/math?math=K_T(t_1)"> that is inferior (from the seller's point of view) to what is available on the markets on day 1
     - In the marking to market pricess, the short position would be considered to have lost by <img src="https://render.githubusercontent.com/render/math?math=K_T(t_2) - K_T(t_1) \gt 0">
     - Thus at the end of day 2, the exchange will charge this amount to the short <img src="https://render.githubusercontent.com/render/math?math=K_T(t_2) - K_T(t_1)">
@@ -30,9 +31,11 @@ Suppose we decide to take a long position in silver futures contracts. The COMEX
 </p>
 
 We have long position in these futures contracts, the contract size is 5000 ounces, and we hold 2 contracts. Thus our daily gain or loss is given by below from day _i_ to _i+1_
+
 <p align="center">
 <img src="https://render.githubusercontent.com/render/math?math=2 \times 5000 \times (K_T(t_{i+1}) - K_T(t_i))">
 </p>
+
 - __Day 2:__
 <p align="center">
 <img src="https://render.githubusercontent.com/render/math?math=2 \times 5000 \times (16.50 -16.20) = 3000">
@@ -60,6 +63,3 @@ In a silver futures example from the previous lecture, suppose the initial margi
 - On day 2 we gained $3000. Hence our margin account has: $7000 + $3000 = $10000
 - On day 3, we lost $3500. Hence our margin account has: $10000 - $3500 = $6500. Maintenance margin is $3000 per contract (total $6000 as we have 2 contracts). $6500 > $6000 (maintenance margin), hence no margin call.
 - On day 4, we lost $1500,. Hence our margin account has $6500 - $1500 = $5000. This is less then maintenance margin requirement of $6000. If we want to keep the position open, we must deposit $2000 in the margin account to bring the balance back to initial margin level of $7000.
-- 
-- 
-- On day 4, we lost 
