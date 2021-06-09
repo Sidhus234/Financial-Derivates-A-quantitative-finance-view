@@ -11,6 +11,7 @@
 <p align="center">
 <img src="https://render.githubusercontent.com/render/math?math=K_T(t) = E(S(T)|\mathcal{F}_t)\:\:\:\:(1)">
 </p>
+  
   where the notation <img src="https://render.githubusercontent.com/render/math?math=E(.|\mathcal{F}_t)"> represents an expectation conditional on the knowledge available at time _t_.
   
 - This principle is justified by arbitrage considerations: if the futures price systematically underestimated or overestimated the spot price at expiration, arbitrage oppurtunities would exist by taking an appropriate futures position and holding until expiry.
