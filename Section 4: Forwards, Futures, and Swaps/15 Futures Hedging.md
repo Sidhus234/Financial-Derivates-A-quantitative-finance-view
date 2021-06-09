@@ -28,3 +28,22 @@ contracts. Them we will hedge our outright position in _N_ units of the underlyi
 <p align="center">
 <img src="https://render.githubusercontent.com/render/math?math=\Longrightarrow Perfect\:\:\:Hedge">
 </p>
+
+
+## Example 1
+In june an oil refiner, looking ahead to October expects to function at capacity that month, refining a total of 2 million barrels of oil. She wants to control her price risk. How can she do this with futures hedging, assuming that the current spot price for oul is %55/barrel and the cost of carry for crude oil is 0? If the spot price for oil in October is $60/barrel, will her futures position be a perfect hedge?
+
+The refiner is short 2 million barrels of crude oil for the month of October. To hedge her risk she must take a long position in futures. The contract size of the NYMEX WTI crude oil futures contract is 1000 barrels. We have <img src="https://render.githubusercontent.com/render/math?math=K_T(t) = S(t)"> since cost of carry =0. Thus the contract price for futures in June will be $55/barrel. To cover her short position in 2 million barrels of crude, and with a contract size of 1000 barrels, she will need to take a long position in 
+
+<p align="center">
+<img src="https://render.githubusercontent.com/render/math?math=\frac{2000000}{1000} = 2000">
+</p>
+
+NYMEX WTI futures contracts expiring in November, for full coverage of her price risk. So if we suppose the refiner takes this long futures position, she then has a portfolio of the futures together with the short cash position. Her portfolio has a value _W(t)_ = Cash Position + Futures Position
+Thus, with an oil price of $60/barrel in October, the change in value for the combined position is
+
+<p align="center">
+<img src="https://render.githubusercontent.com/render/math?math=\Delta W(t) = \Delta Cash %2b \Delta Futures = -(2000000) \Delta S(t) %2B (2000)(1000) \Delta K_T(t)"><br>
+  <img src="https://render.githubusercontent.com/render/math?math==  -(2000000) (60-55) %2B (2000000) (60-55)"><br>
+  <img src="https://render.githubusercontent.com/render/math?math== 0 \Longrightarrow \:\:Perfect\:\:Hedge"><br>
+</p>
