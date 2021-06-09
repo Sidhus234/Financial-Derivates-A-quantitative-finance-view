@@ -28,3 +28,58 @@ __Remark:__ Relation (1) is an arbitrage relation not a statement of cause and e
 <img src="../Images/S4_ConvergingbetweenSpotFutreprice.PNG" alt="Converging between Spot and Future Prices"/>
 
 - If the 2 prices deivate too far from it, arbitrage activity will bring them in alignment.
+- There is one further property of futures prices, a special case of (1). It is justified by an independent arbitrage arguement which is valid for futures contracts. As _t_ approaches the expiration date, the futures and spot prices come together. 
+- The futures price must converge to the spot price as the expiration date is approached. During the delivery month, the futures price must equal (or be very close to) the spot price, Mathematically: <img src="https://render.githubusercontent.com/render/math?math=K_T(T) = S(T)">
+
+- __Case 1:__ Suppose during the expiration month that
+
+<p align="center">
+<img src="https://render.githubusercontent.com/render/math?math=K_T(T) \gt S(T)">
+</p>
+
+- An arbitrage can be realized by:
+
+  - taking the short position in the futures contract.
+  - purchasing the underlying
+  - immediately making delivery
+  - These actions realize an arbitrage profit of
+
+<p align="center">
+<img src="https://render.githubusercontent.com/render/math?math=K_T(T) - S(T) \gt 0">
+</p>
+
+- __Case 2:__ Suppose during the expiration month that
+
+<p align="center">
+<img src="https://render.githubusercontent.com/render/math?math=K_T(T) \lt S(T)">
+</p>
+
+- An arbitrage can be realized by:
+
+  - taking the long position in the futures contract.
+  - purchasing the underlying at the futures price at delivery
+  - immediately selling underlying on the spot market
+  - These actions realize an arbitrage profit of
+
+<p align="center">
+<img src="https://render.githubusercontent.com/render/math?math=S(T) - K_T(T) \gt 0">
+</p>
+
+- So at the expiration date of the contract we have <img src="https://render.githubusercontent.com/render/math?math=K_T(T) = S(T)">
+- Then for times _t < T_ we expect that as _t_ approached _T_ that <img src="https://render.githubusercontent.com/render/math?math=K_T(t)"> and _S(t)_ should approach each other. This is approximately what is observed in markets. In general, there are deviations from it in different local cash markets. This is what is meant by futures basis.
+
+## Summary:
+The futures price is linked to the spot price.
+- The arbitrage relation can be expected to hold, to some approximate degree, in most markets.
+
+<p align="center">
+<img src="https://render.githubusercontent.com/render/math?math=K_T(t) = e^{c(T-t)}S(t)">
+</p>
+
+- The convergence of futures to spot holds to within the basis
+
+<p align="center">
+<img src="https://render.githubusercontent.com/render/math?math=K_T(T) = S(T)">
+</p>
+
+- __Remark:__ Note the critical role the delivery process for these results.
