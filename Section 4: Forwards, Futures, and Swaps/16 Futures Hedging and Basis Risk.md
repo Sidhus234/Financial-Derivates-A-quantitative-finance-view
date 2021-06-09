@@ -60,5 +60,10 @@ Basis is the difference between spot and futures prices. The _basis_ for _T_-exp
   <img src="https://render.githubusercontent.com/render/math?math==N(S(t_2) - S(t_1)) - N(K_T(t_2) - K_T(t1))"><br>
   <img src="https://render.githubusercontent.com/render/math?math== N(S(t_2) - K_T(t_2))- N(S(t_1) - K_T(t1))"><br>
   <img src="https://render.githubusercontent.com/render/math?math== Nb(t_2)- Nb(t_1)"><br>
-  
+  <img src="https://render.githubusercontent.com/render/math?math== N(b(t_2)- b(t_1))"><br>
+  <img src="https://render.githubusercontent.com/render/math?math== Position\:\:Size\:\:\times\:\:Basis\:\:Change"><br>
 </p>
+
+- So in the case of a unitary hedge, ie a hedge where one purchases an amount of futures contracts to offset the cash position completely, price risk is replaced with basis risk. This is a good tradeoff from a risk management point of view because basis risk is much smaller than price risk. 
+- Perfect hedges are not usually possible due to the price complexities of real world markets, like the existence of a futures basis. But futures hedging is still an effective tool for controlling and reducing risk.
+
