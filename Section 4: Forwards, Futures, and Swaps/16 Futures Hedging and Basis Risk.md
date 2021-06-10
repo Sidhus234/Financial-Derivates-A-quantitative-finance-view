@@ -67,3 +67,45 @@ Basis is the difference between spot and futures prices. The _basis_ for _T_-exp
 - So in the case of a unitary hedge, ie a hedge where one purchases an amount of futures contracts to offset the cash position completely, price risk is replaced with basis risk. This is a good tradeoff from a risk management point of view because basis risk is much smaller than price risk. 
 - Perfect hedges are not usually possible due to the price complexities of real world markets, like the existence of a futures basis. But futures hedging is still an effective tool for controlling and reducing risk.
 
+## Example 1:
+Suppose you run a US based exporting company. It is May, and you know you will be receiving a payment in November of 1 million Euros. How can you manage the risk of adverse moves in the EUR/USD exchange rate using futures? Suppose you take on a full, unitary hedge of your cash position using futures. Suppose the current spot EUR/USD rate is $1.15/Euro and the current futures rate on the December EUR/USD futures contract is $1.18/Euro. And suppose that in November, the spot rate is $1.02/Euro and the futures rate is $1.03/Euro. What is the gain or loss of the total position? Has the hedge been effective?
+
+The CME EUR/USD futures contrat has a contract size of $125,000 Euro, and they are sold for the delivery month of December. You can take a short position on 8 EUR/USD contracts expiring in December to fully hedge your risk. 
+
+- Now suppose you take this short position in EUR/USD futures. 
+- From May to november, the cash position has declined from $1.15/Euro to $1.02/Euro. Therefore your long cash position in Euro has suffered a loss of (1,000,000) (1.15-1.02) = $130,000
+- The futures basis in May is $1.15-$1.18 = -0.03 and in November the basis is $1.02-1.03 = -$0.01
+- Therefore your combined position (long cash, short futures) has profited by $20000. tHE HEDGE HAS PROTECTED YOU FROM A LOSS OF $130000. It has been effective.
+
+<p align="center">
+<img src="https://render.githubusercontent.com/render/math?math=(1000000)(-0.01 - (-0.03)) = 20000">
+</p>
+
+
+## Example 2:
+It is April, and a copper miner, anticipating a volatile copper market, wants to hedge his price risk for the fall. He projects producing about 15,000 metric tons of copper in October and November and wants coverage for about 10,000 tons. The CME copper futures contract has a contract size of 25,000 pounds (about 11 metric tons) and trades for delivery in every month for the next year. How should the miner manage his price risk??
+
+To cover 10,000 tons, he would need to take a short position in approximately 10,000/11, or about 900, contracts, expiring no earlier than December.
+
+Suppose the miner decides to take ashort position in 900 copper futures contracts expiring in December. Suppose that the current spot price for copper is $3.05/pound and the futures price for the December contract is $3.11/pound. And suppose in November, when the miner has produced 16,000 tons of copper in the last 2 months, the spot price is #3.15 and the futures price is $3.16. How has the position fared?
+
+- On the cash postion, the miner has gained. The cash price has increased from $3.05/pound to $3.15/pound, so the miner's cash position has profited by
+
+<p align="center">
+<img src="https://render.githubusercontent.com/render/math?math=16000 \times 2204.62 \times (3.15 - 3.05) = 3527392">
+</p>
+  (NOTE: 1 metric ton = 2204.62 pounds)
+  
+- However, he has lost money on the futures position. the miner was short 900 contracts, and the futures price increased from $3.11 to #3.16
+
+<p align="center">
+<img src="https://render.githubusercontent.com/render/math?math=900 \times 25000 \times (3.16-3.11) = 1125000">
+</p>
+
+- So the futures position has dimished the miner's gain to $2,402,392
+
+<p align="center">
+<img src="https://render.githubusercontent.com/render/math?math=3527392 - 1125000 = 2402392">
+</p>
+
+- In general, when the cash market moves in a market participants favor, the effect of the futures hedge is to reduce the benefit. 
