@@ -56,5 +56,13 @@ Suppose the current spot LIBOR rat (simply compounded) for a 2 year tenor is 4% 
  - We are given prevailing spot interest rates of _L(0, 2) = 0.04_ AND _l(0, 4) = 0.07_. From these, we may compute zero coupon bond prices 
 
 <p align="center">
-<img src="https://render.githubusercontent.com/render/math?math=P(0, 2)">
+<img src="https://render.githubusercontent.com/render/math?math=P(0, 2) = \frac{1}{1 %2B 2L(0,2)} = \frac{1}{1 %2B 2(0.04)} = 0.9259"><br>
+  <img src="https://render.githubusercontent.com/render/math?math=P(0, 2) = \frac{1}{1 %2B 4L(0,2)} = \frac{1}{1 %2B 4(0.04)} = 0.7813"><br>
 </p>
+
+- From these zero coupon bond prices, we calculate the forward interest rate:
+
+<p align="center">
+<img src="https://render.githubusercontent.com/render/math?math=L(0, 2, 4) = \frac{P(0,2) - P(0, 4)}{2P(0,4)} = \frac{(0.9259 - 0.7813)}{2(0.7813)} = 0.0925">
+</p>
+
