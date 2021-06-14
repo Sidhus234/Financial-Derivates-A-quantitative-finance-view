@@ -97,3 +97,48 @@ __Fair Swap Rate:__ The fair swap rate is the value of the fixed rate _S_ in an 
   <img src="https://render.githubusercontent.com/render/math?math=S = \frac{m(1 - d(t_J))}{\sum_{j=1}^{J} d(t_j)}">
 </p>
 giving the fair swap rate.
+
+
+### Example 1:
+Suppose we enter into a 1 year interest rate swap with quarterly payments on a notional value of $500,000 as the fixed payer. Suppose the term structure of the discount factors for the next year is given by
+_d(0.25)_ = 0.982
+_d(0.5)_ = 0.975
+_d(0.75)_ = 0.965
+_d(1)_ = 0.952
+What fixed rate will be quoted? Suppose that in 3 months after the first payments have been made the term structure of discount factors is now
+_d(0.25)_ = 0.979
+_d(0.5)_ = 0.961
+_d(0.75)_ = 0.955
+What is the value of our position at this time?
+
+Quarterly swap payments implies the frequency of payments is _m_ = 4. There will be a total of _J = 4_ fixed payments made in 1 year. The fair swap rate, from is
+<p align="center">
+  <img src="https://render.githubusercontent.com/render/math?math=S = \frac{m(1 - d(t_J))}{\sum_{j=1}^{J} d(t_j)}"><br>
+  <img src="https://render.githubusercontent.com/render/math?math=S = \frac{4(1 - d(1))}{\sum_{j=1}^{4} d(t_j)} = \frac{4(1-0.0952)}{0.982 %2B 0.975 %2B 0.965 %2B 0.952"><br>
+  <img src="https://render.githubusercontent.com/render/math?math=S = 0.0496">
+</p>
+
+The quoted fixed rate will be able to construct will be 4.956%.
+
+Immediately after the first fixed and floating payments are made, 3 months after the origination of the swap, there are 3 payments left, 3, 6, and 9 months hence. 
+From our point of view (the fixed payer) the value of the swap is
+
+<p align="center">
+<img src="https://render.githubusercontent.com/render/math?math=V_{float} - V_{fixed}">
+</p>
+
+With a notional value of _N_ = 500,000 the two legs are valued as
+
+<p align="center">
+<img src="https://render.githubusercontent.com/render/math?math=V_{float} = N(1 - d(0.75)"><br>
+  <img src="https://render.githubusercontent.com/render/math?math=V_{float} = (500000)(1 - 0.955) = 22500"><br>
+</p>
+
+And
+
+<p align="center">
+<img src="https://render.githubusercontent.com/render/math?math=V_{fixed} = \frac{SN}{m} \sum_{j=1}^{3} d(t_j) = \frac{SN}{m} \sum_{j=1}^{3}d(j/4)"><br>
+  <img src="https://render.githubusercontent.com/render/math?math==\frac{0.04956 \times 500000}{4} (0.979 %2B 0.961 %2B 0.955) = 17935">
+</p>
+
+Hence, the value of our swap position after the first payment is $22,500 - $17,935 = $4565
