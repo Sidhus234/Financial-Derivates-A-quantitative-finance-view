@@ -114,7 +114,7 @@ What is the value of our position at this time?
 Quarterly swap payments implies the frequency of payments is _m_ = 4. There will be a total of _J = 4_ fixed payments made in 1 year. The fair swap rate, from is
 <p align="center">
   <img src="https://render.githubusercontent.com/render/math?math=S = \frac{m(1 - d(t_J))}{\sum_{j=1}^{J} d(t_j)}"><br>
-  <img src="https://render.githubusercontent.com/render/math?math=S = \frac{4(1 - d(1))}{\sum_{j=1}^{4} d(t_j)} = \frac{4(1-0.0952)}{0.982 %2B 0.975 %2B 0.965 %2B 0.952"><br>
+  <img src="https://render.githubusercontent.com/render/math?math=S = \frac{4(1 - d(1))}{\sum_{j=1}^{4} d(t_j)} = \frac{4(1-0.952)}{0.982 %2B 0.975 %2B 0.965 %2B 0.952"><br>
   <img src="https://render.githubusercontent.com/render/math?math=S = 0.0496">
 </p>
 
@@ -142,3 +142,37 @@ And
 </p>
 
 Hence, the value of our swap position after the first payment is $22,500 - $17,935 = $4565
+
+### Example 2:
+A corporation has previously issued a floating rate bond with a 5 million dollar face value paying 6 month LIBOR plus 200 bps which matures in a year. Concerned about interest rate increases, the company wants to protect against this risk. How can it do this with swaps? What market swap rate can it contract, assuming the term structure of the discount factos is
+_d(0.5)_ = 0.996
+_d(1)_ = 0.989
+Suppose the 6 month LIBOR rate at the time the swap is originated is 0.8% and that 6 months after the 6 month LIBOR rate has risen to 1.7^. How effective has this risk management strategy been?
+
+The company can enter an interest rate swap as payer, that is the party paying fixed , and thus convert the floating rate payments into fixed payments. For full coverage, the company must enter into a 1 year swap on a notional value of $5,000,000 and making semiannual payments, with 6 month LIBOR as the floating rate.
+The fair swap rate the company can contract for this swap will be
+
+<p align="center">
+  <img src="https://render.githubusercontent.com/render/math?math=S = \frac{m(1 - d(t_J))}{\sum_{j=1}^{m} d(t_j)}"><br>
+  <img src="https://render.githubusercontent.com/render/math?math=S = \frac{2(1 - d(1))}{\sum_{j=1}^{2} d(j/2)} = \frac{2(1-0.989)}{0.996 %2B 0.989" = 0.01108>
+</p>
+
+Had the company not taken the swap position, the effective interest rate it would have paid would have been LIBOR + 200 bps in 6 and 12 months. Thus, the payments would have been
+
+<p align="center">
+<img src="https://render.githubusercontent.com/render/math?math=First\:\:Payment = \frac{0.008 %2B 0.02}{2} (5000000) = 70000"><br>
+  <img src="https://render.githubusercontent.com/render/math?math=Second\:\:Payment = \frac{0.017 %2B 0.02}{2} (5000000) = 92500"><br>
+</p>
+
+for a total of $162,500
+
+After taking the swap position, the companies 2 payments will be
+
+<p align="center">
+<img src="https://render.githubusercontent.com/render/math?math=First\:\:Payment = \frac{0.01108 %2B 0.02}{2}(5000000) = 77700"><br>
+  <img src="https://render.githubusercontent.com/render/math?math=Second\:\:Payment = \frac{0.01108 %2B 0.02}{2}(5000000) = 77700">
+</p>
+
+for a total of $155,400
+
+So putting on the swap position have been marginally effective (saving $7100). Over the long period, the effects might have been much larger. 
