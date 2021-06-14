@@ -63,5 +63,31 @@ The forward rate is the value of _K_ such that <img src="https://render.githubus
 ### Example
 Suppose that the 5 year LIBOR spot rate is 3.5%, and the 6 year LIBOR spot rate is 4% (both simply compounded). What is the market value today of an FRA (from the borrower's perspective) for a 1 year term, expiring in 5 years, on a principal of $2,000,000 and with a contracted rate of 6%? If you were to enter into such a contract today, what contrat rate would set the contract value to 0 at origination?
 
-We have
-- 
+We are given spot rates:
+
+<p align="center" color="blue">
+<img src="https://render.githubusercontent.com/render/math?math=L(0, 5) = 0.035"><br>
+<img src="https://render.githubusercontent.com/render/math?math=L(0, 6) = 0.04"><br>
+</p>
+
+From these we calculate zero coupon bond prices
+
+<p align="center" color="blue">
+<img src="https://render.githubusercontent.com/render/math?math=P(0, 5) = \frac{1}{1 %2B 5L(0,5)} = \frac{1}{1 %2B 5 \times 0.035} = 0.0851"><br>
+  <img src="https://render.githubusercontent.com/render/math?math=P(0, 6) = \frac{1}{1 %2B 6L(0,6)} = \frac{1}{1 %2B 6 \times 0.04} = 0.0806"><br>
+</p>
+
+Applying our formula for the value <img src="https://render.githubusercontent.com/render/math?math=V_{FRA}">, the fair value for an FRA contract with the data given:
+
+<p align="center" color="blue">
+<img src="https://render.githubusercontent.com/render/math?math=K = \frac{P(0,5) - P(0,6)}{(1)P(0,6)} = \frac{(0.851-0.806)}{0.806} = 0.0558">
+  </p>
+  <img src="https://render.githubusercontent.com/render/math?math==(2000000)(0.851-0.806-0.806(1) 0.006) = -6720"><br>
+</p>
+
+The fair contract rate for such a contract is the forward interest rate:
+
+<p align="center" color="blue">
+<img src="https://render.githubusercontent.com/render/math?math=K = \frac{P(0,5) - P(0,6)}{(1)P(0,6)} = \frac{(0.851-0.806)}{0.806} = 0.0558">
+  </p>
+
