@@ -44,7 +44,7 @@ and the receiver pays to the payer
 <img src="https://render.githubusercontent.com/render/math?math=\frac{L_{i-1}}{m}N">
 </p>
 
-<img src="../Images/S4-Swap_CashFlows.PNG" alt="Swap Cash Flows"/>
+<img src="../Images/S4_Swap_Cash_Flows.PNG" alt="Swap Cash Flows"/>
 
 __Remarks:__ LIBOR is in the process of being phased out and replaced. Eventually other floating interest rates will replace LIBOR in swaps. This is a transition in progress right now.
 
