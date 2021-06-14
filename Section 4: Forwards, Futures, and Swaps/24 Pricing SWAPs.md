@@ -114,7 +114,7 @@ What is the value of our position at this time?
 Quarterly swap payments implies the frequency of payments is _m_ = 4. There will be a total of _J = 4_ fixed payments made in 1 year. The fair swap rate, from is
 <p align="center">
   <img src="https://render.githubusercontent.com/render/math?math=S = \frac{m(1 - d(t_J))}{\sum_{j=1}^{J} d(t_j)}"><br>
-  <img src="https://render.githubusercontent.com/render/math?math=S = \frac{4(1 - d(1))}{\sum_{j=1}^{4} d(t_j)} = \frac{4(1-0.952)}{0.982 %2B 0.975 %2B 0.965 %2B 0.952"><br>
+  <img src="https://render.githubusercontent.com/render/math?math=S = \frac{4(1 - d(1))}{\sum_{j=1}^{4} d(t_j)} = \frac{4(1-0.952)}{0.982 %2B 0.975 %2B 0.965 %2B 0.952}"><br>
   <img src="https://render.githubusercontent.com/render/math?math=S = 0.0496">
 </p>
 
@@ -154,7 +154,7 @@ The fair swap rate the company can contract for this swap will be
 
 <p align="center">
   <img src="https://render.githubusercontent.com/render/math?math=S = \frac{m(1 - d(t_J))}{\sum_{j=1}^{m} d(t_j)}"><br>
-  <img src="https://render.githubusercontent.com/render/math?math=S = \frac{2(1 - d(1))}{\sum_{j=1}^{2} d(j/2)} = \frac{2(1-0.989)}{0.996 %2B 0.989" = 0.01108>
+  <img src="https://render.githubusercontent.com/render/math?math=S = \frac{2(1 - d(1))}{\sum_{j=1}^{2} d(j/2)} = \frac{2(1-0.989)}{0.996 %2B 0.989}" = 0.01108>
 </p>
 
 Had the company not taken the swap position, the effective interest rate it would have paid would have been LIBOR + 200 bps in 6 and 12 months. Thus, the payments would have been
