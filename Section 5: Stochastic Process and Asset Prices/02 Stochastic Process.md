@@ -32,12 +32,10 @@ __Formal Definition:__ Denote the _jth_ jump by <img src="https://render.githubu
 
 A __continuous time stochastic process__ could be denoted by _X(t)_ defined, for instance, for all _t > 0._ The following plots show sample paths from a particular continuous time stochastic process known as __Brownian motion__. 
 
-<img src="../Images/S5_RandomWalk.png" alt="Brownian Motion"/>
+<img src="../Images/S5_Brownian_Motion.png" alt="Brownian Motion"/>
 
 Continuous time stochastic process cannot usually be constructed in as elementary a way as discrete time ones. Mathematically, continuous time stochastic processes are defined by specifying joint probability distributions for the random variables <img src="https://render.githubusercontent.com/render/math?math=X(t_1), X(t_2), \cdots"> for arbitary times <img src="https://render.githubusercontent.com/render/math?math=t_1, t_2, \cdots">. For instance, Brownian motion usually denoted by _W(t)_ is determined by specifying that for times <img src="https://render.githubusercontent.com/render/math?math=t_1 \lt t_2 \lt t_3"> the random variables <img src="https://render.githubusercontent.com/render/math?math=W(t_2) - W(t_1) \:\:and\:\:W(t_3) - W(t_2)"> are independent, and for any <img src="https://render.githubusercontent.com/render/math?math=t_1 \lt t_2">
 
 <p align="centre"
-<img src="https://render.githubusercontent.com/render/math?math=W(t_2) - W(t_1) \sim \mathcal{N}(0, t_2 - t_1)">
+<img src="https://render.githubusercontent.com/render/math?math=W(t_2) - W(t_1) = N(0, t_2 - t_1)">
 </p>
-
-
