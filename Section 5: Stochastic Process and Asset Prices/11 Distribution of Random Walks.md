@@ -75,7 +75,7 @@ Then <img src="https://render.githubusercontent.com/render/math?math=X_{j} = 1">
   <img src="https://render.githubusercontent.com/render/math?math== 2Z_{n} - n"><br>
 </p>
 
-<img src="https://render.githubusercontent.com/render/math?math== S_{n}"> will thus inherit a "shifted" binomial distribution from <img src="https://render.githubusercontent.com/render/math?math== Z_{n}">. For simplicity, we consider the case of even _n = 2m_. In this case, note that <img src="https://render.githubusercontent.com/render/math?math== S_{n}"> can only take as values even integers randing from _-2m to 2m_. Then we will have
+<img src="https://render.githubusercontent.com/render/math?math=S_{n}"> will thus inherit a "shifted" binomial distribution from <img src="https://render.githubusercontent.com/render/math?math=Z_{n}">. For simplicity, we consider the case of even _n = 2m_. In this case, note that <img src="https://render.githubusercontent.com/render/math?math=S_{n}"> can only take as values even integers randing from _-2m to 2m_. Then we will have
 
 <p align="center">
 <img src="https://render.githubusercontent.com/render/math?math=Prob \( S_{n} = 2l ) = \frac{n!}{ \( m %2B l )! \( m - l )!} p^{m %2B l } q^{m-l} for l = -m, -m %2B 1 \cdots m - 1, m">
