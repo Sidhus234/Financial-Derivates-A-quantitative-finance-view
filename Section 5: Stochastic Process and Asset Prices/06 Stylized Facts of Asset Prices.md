@@ -25,10 +25,10 @@ We study these returns as a daily time series
 
 with the <img src="https://render.githubusercontent.com/render/math?math=t_{i}"> representing successive business days. First lets look at the raw prices.
 
-<img src="../Images/S6_RawSP500_series.png" alt="S&P 500 raw series"/>
+<img src="../Images/S5_RawSP500_series.png" alt="S&P 500 raw series"/>
 
-<img src="../Images/S6_Pound_Sterling_USD_ExchangeRate.png" alt="Pound Sterling / USD exchange rate"/>
+<img src="../Images/S5_Pound_Sterling_USD_ExchangeRate.png" alt="Pound Sterling / USD exchange rate"/>
 
-<img src="../Images/S6_Soyabeanprices.png" alt="Soyabean Prices"/>
+<img src="../Images/S5_Soyabeanprices.png" alt="Soyabean Prices"/>
 
 
