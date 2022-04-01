@@ -13,7 +13,7 @@ The S&P chart has 11 years of data, and it captures index value for every tradin
 
 <img src="../Images/S5_RandomWalk_2500steps1.png" alt="Random Walk with 2500 Steps"/>
 
-<img src="../Images/S5_Pound_Sterling_USD_ExchangeRate.png.png" alt="Sterling-USD Exchange rate"/>
+<img src="../Images/S5_Pound_Sterling_USD_ExchangeRate.png" alt="Sterling-USD Exchange rate"/>
 
 Real USD-Sterling plot shows two behaviors - periods of time where there are lot of oscialltions and then there are periods where there are big shocks (up or down). Similar behaviour is observed in random walk. Hence, at a certain level, the simulated random walk is similar to Sterling-USD exchange rate.
 
