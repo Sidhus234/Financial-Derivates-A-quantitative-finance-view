@@ -80,7 +80,7 @@ Also, an initial value _S(0)_ should be included:
 <img src="https://render.githubusercontent.com/render/math?math=log \( S \( t ) ) = log \( S \( 0 ) ) %2b \mu t %2B \sigma W \( t ) ">
 </p>
 
-We may then exponentiate both sides of this equation. The below equation is called __log-normal model__ of asset prices.
+We may then exponentiate both sides of this equation. The below equation is called __log-normal model__ of asset prices. Another term commonly used is __geometric Brownian Motion.__
 
 <p align="center">
 <img src="https://render.githubusercontent.com/render/math?math=\( S \( t ) ) = S \( 0 ) e^{ \mu t %2B \sigma W \( t ) }">
