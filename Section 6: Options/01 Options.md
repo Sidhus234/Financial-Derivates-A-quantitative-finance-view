@@ -30,18 +30,19 @@ Terminology denoting the status of an option when the spot (underlying) price is
 <li>An option is <b>at the money</b> if spot=strike (for both calls and puts).</li>
 
 <h3>Option Premium</h3>
-Once an option holder owns an option, they have no downside risk. 
 
+Once an option holder owns an option, they have no downside risk. The lowest possible payout will occur if the option expires out of the money, worthless. The option would be an arbitrage unless the option holder had to pay to own it. Thus, an investor must pay a price to enter a long position in a call or a put. The price for an option is called the __option premium__.
 
+<h3>Option Assumptions</h3>
+<li>Unless otherwise stated, we will only treat European options.</li>
+<li>Unless otherwise stated, we will only consider options on underlying assets that pay no income. </li>
+<li>The default underlying asset can be taken to be a stock paying no dividents throughout our treatment of options.</li>
 
+__Remark__: In the following axamples, assume interest rates are 0 so that future and present values of any payment equals the cash value of the payment when made. 
 
+<h3>Example 1</h3>
+Suppose an investor paid a $10 premium for a European call with a strike price of $60. Under what circumstances should the option be exercised? If the spot price of the underlying asset is $75 at expiry, how much does the investor profit or lose? What if it is $40?
 
-
-
-
-
-<img src="../Images/S9_working_Capital_days.png" alt="Working Capital Days"/>
-
-<p align="center">
-<img src="https://render.githubusercontent.com/render/math?math=">
-</p>
+<li><b>Case 1</b>: The call gives the option holder the right ti purchase the asset for $60 at expiry. If, at expiry, the asset value is <= $60 the option will not be exercised, since it can be purchased cheaper on markets. If the asset value is > $60 at expiry then the option will be exercised.</li>
+<li><b>Case 2</b>: In the case that the asset is worth $75 at expiration, the option gives the option holder the right to purchase it for $60. The option holder will exercise the option, buy the asset for $60, and can immediately sell it on the market for $75, profiting by $15. Subtracting from this the $10 premium paid at contract origination, the investor's net profit is $5.</li>
+<li><b>Case 3</b>: In the second case, because the market price of the asset is $40 < $60, the option will not be exercise, and expires worthless. The investor then suffers a loss of the initial $10 premium.</li>
