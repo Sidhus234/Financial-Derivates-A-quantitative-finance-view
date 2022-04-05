@@ -40,7 +40,7 @@ Thus, after holding until expiry, our position is:
   </ol>
   
   <p align="center">
-<img src="https://render.githubusercontent.com/render/math?math=e^{r \( T - t ) \( S \( t ) - C \( t ) )">
+<img src="https://render.githubusercontent.com/render/math?math=e^{r \( T - t ) } \( S \( t ) - C \( t ) )">
 </p>
 
 At the expiration date of the options, 2 events are possible: If _S(T) > K_: We exercise the call, spending _K_, receiving the stock. We close out the short position. We retain the profit
