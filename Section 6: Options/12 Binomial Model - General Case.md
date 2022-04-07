@@ -23,7 +23,7 @@ As befpre we ssume there is a risk free interest rate _r_ such that a cash inves
 
 For if _1+r <= d_ than with certainty the stock returns at least as well as the risk free investment. We could create an arbitrage by borrowing at the risk free rate and spending the proceeds on the stock. If _u <= 1+r_ we construct an arbitrate by shorting the stock and investing the proceeds at the risk free rate.
 
-As before, we also assume we have a derivative, with stock as its underlying, with values <img src="https://render.githubusercontent.com/render/math?math=D_{t}">, with an initial value <img src="https://render.githubusercontent.com/render/math?math=D_{0]"> and such that
+As before, we also assume we have a derivative, with stock as its underlying, with values <img src="https://render.githubusercontent.com/render/math?math=D_{t}">, with an initial value <img src="https://render.githubusercontent.com/render/math?math=D_{0}"> and such that
 
 <p align="center">
 <img src="https://render.githubusercontent.com/render/math?math=D_{1} = D_{1} \( %2B ) \: \text{when} \: S_{1} = S_{1} \( %2B )"><br>
