@@ -112,9 +112,3 @@ That is, in the risk neutral distribution, the binomial process <img src="https:
 </p>
 
 The technical details of the 2 limits described in this lecture (in the original real world distribution and the risk neutral distribution) will be presented in a supplementary article. The identification of the risk neutral limit of the binomial model will aloow us to derive a formula for the call price when the underlying asset is modified with a log-normal model. The result will be the Black-Scholes formula. This will be the subject of the next lecture. 
-
-<img src="../Images/S9_working_Capital_days.png" alt="Working Capital Days"/>
-
-<p align="center">
-<img src="https://render.githubusercontent.com/render/math?math=">
-</p>
