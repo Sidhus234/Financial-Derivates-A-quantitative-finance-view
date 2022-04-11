@@ -1,0 +1,22 @@
+<h1>Flaws of Black-Scholes Theory</h1>
+The Black-Scholes formula is based on many assumptions. We know that many of these assumptions are invalid. Some of them are:
+
+<ol>
+  <li>Interest rates are constant.</li>
+  <li>Transaction costs are zero.</li>
+  <li>Volatility is a fixed, deterministic number.</li>
+  <li>Asset returns follow a log-normal process.</li>
+  <li>Continuous delta hedging of an option is possible</li>
+</ol>
+
+Assuming constant interest rates is an approximation which is worse in some circumstances than others. For short dated options using prevailing interest rates when the contract is entered (or whenevr the contract is valued) will probably not cause a serious error. For longer dated options, usually an investor or analyst can make a reliable prediciton of likely ranges of future interest rates, until the option expires. An estimated range of reasonable option prices may then be constructed based on Black-Scholes prices. Interest rates are usually stable enough that this issue can be acceptably addressed.
+
+Transaction costs are realized as bid-ask spreads on markets. On liquid markets, bid-ask spreads tend to be small. On illiquid markets, they are wider. This the importance of transaction costs varioes from market to market. Transaction costs have their largest effect through their interaction with the delta hedging of option positions implicit in the derivation of Black-Scholes. Transaction costs make continuous delta hedging prohibitively expensive, and so it must be done discretely in time. Transaction costs in turn add an error to the call price due to the cost of hedging. Many models of transaction costs have been devised which allow this error to be approximated.
+
+Assumption 3 can be regarded as a special aspect of 4. So we subsume it into assumption 4 and deal with them together. We derived the Black-Scholes formula as the limiting case of the binomial call pricing formula as the number of timesteps, in 1 unit of time goes to infinity. We also found that the binomial model itself converged to the log-normal model in this same limit. It follows that the Black-Scholes formula is the fair value (or arbitrage price) of a call option when we model the underlying price as a log-normal process. But we know that real asset prices serioes do not follow a log-normal law. In the log-normal model, returns on successive days (or weeks, months, years) are independent random variables. Thus the autocorrelation function of any function of the returns is zero, and volatility clustering will not be exhibited. We know this is inconsistent with real asset returns. In the log-normal model, returns have a normal distribution. We know real asset returns are fat-tailed. Based, as it is, on a flawed asset pricing model for the underlying, we cannot expect the Black-Scholes formula to be any better tahn an approximation to the true fair price of an option. The most serious problem is perhaps ignoring the fat tails of real asset return distributions. The Balck-Scholes model implicitly underestimates the probability of extreme moves up or down in asset prices. One effect of this is that the Black-Scholes formula is generally viewed as misvaluing (and usually undervaluing) far out of the money or in the money options. 
+
+Finally, the Black-Scholes formula gives an arbitrage price based on an arbitrage that is unrealizable in practice. In the binomial model, we determined the fair value of an option (or any derivative) by, at each timestep, rebalncing a portfolio of the option and the underlying so as to make the portfolio value certain (thus riskless) at the next timestep. In the continuous time limit taken to derive Black-Scholes, this requires this rebalancing, known as delta hedging, to be carried out continuously in time. This is, in practical terms, impossible, and in any case, prohibitively expensive with nonzero transaction costs. 
+
+One could argue that sufficiently large institutions, such as investment banks, might have the resources to come reasonable close to delta hedging in continuous time. In that case, while not 100% accurate, we might expect the option price to never deviate too far from the Black-Scholes price - were it not for the other approximations inherent in the model. 
+
+__In Summary__: In practice, the sum total of the flaws of the Black-Scholes model means that practitioners know not to use it naively. In spite of all its limitations, the Black-Scholes formula is still the benchmark option pricing tool for option practitioners. 
