@@ -80,9 +80,44 @@ To use this to approximate the loss on an option in 1 month (or any time duratio
 <img src="https://render.githubusercontent.com/render/math?math=\Theta = \frac{\partial C \( S, t %3B K, T, \sigma, r}{\partial t}">
 </p>
 
+and som we have approximately
 
 <p align="center">
-<img src="https://render.githubusercontent.com/render/math?math=">
+<img src="https://render.githubusercontent.com/render/math?math=C \( S , t %2b \Delta t ) - C \ ( S , t ) \approx \Theta \Delta t">
 </p>
 
-<img src="../Images/S9_working_Capital_days.png" alt="Working Capital Days"/>
+The negative value of theta implies, therefore a loss. The approximate P&L in 1 month is then
+
+<p align="center">
+<img src="https://render.githubusercontent.com/render/math?math=\Theta x \frac{1}{12} = -2.83 x \frac{1}{12} = -0.2358">
+</p>
+
+or a loss of $0.2358 per option. On our total position of 50 calls our approximate loss is then 50 x 0.2358 = $11.79.
+
+As an alternative approcah, we calculate the loss by repricing the option in 1 month, assuming all market factors have remained constant. First, computing the call price with 2months left to expiration, we use the Black-Scholes formula:
+
+<p align="center">
+<img src="https://render.githubusercontent.com/render/math?math=C \( 0 ) = S N \( d_{ %2B } ) - K e^{-rT} N \( d_{-} )"><br>
+  <img src="https://render.githubusercontent.com/render/math?math== 30 N \( 1.3941 ) - 25 e^{-0.04 \( 2 / 12 )} N \( 1.2518 ) = $5.33">
+</p>
+
+Now, repricing the options 1 month later we have
+
+<p align="center">
+  <img src="https://render.githubusercontent.com/render/math?math== \frac{1}{0.35 \sqrt{1/12}} \[ \log \( \frac{30}{25} ) %2B \( 0.04 %2B \frac{0.35^{2}}{2} ) \( \frac{1}{12} ) ] = 1.8880">
+</p>
+
+and
+
+<p align="center">
+  <img src="https://render.githubusercontent.com/render/math?math== \frac{1}{0.35 \sqrt{1/12}} \[ \log \( \frac{30}{25} ) %2B \( 0.04 - \frac{0.35^{2}}{2} ) \( \frac{1}{12} ) ] = 1.7870">
+</p>
+
+and finally a call price of
+
+<p align="center">
+<img src="https://render.githubusercontent.com/render/math?math=C \( 0 ) = S N \( d_{ %2B } ) - K e^{-rT} N \( d_{-} )"><br>
+  <img src="https://render.githubusercontent.com/render/math?math== 30 N \( 1.888 ) - 25 e^{-0.04 \( 1 / 12 )} N \( 1.787 ) = $5.12">
+</p>
+
+The total loss on our posiiton of 50 calls is 50 * (5.33-5.12) = $10.50, showing that the theta approximation overestimated the loss.
