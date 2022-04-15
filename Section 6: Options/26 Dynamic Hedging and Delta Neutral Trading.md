@@ -65,7 +65,7 @@ To hedge our option position, the formula for a delta neutral portfolio says we 
 <img src="https://render.githubusercontent.com/render/math?math=\Delta x # \text{optioned shares}">
 </p>
 
-with <img src="https://render.githubusercontent.com/render/math?math=\Delta}"> = 93.78% the delta neutral position then consists of the call option on 200 shares and a short position in 0.9378 * 200 = 188 shares.
+with <img src="https://render.githubusercontent.com/render/math?math=\Delta"> = 93.78% the delta neutral position then consists of the call option on 200 shares and a short position in 0.9378 * 200 = 188 shares.
 
 To compare this position to the proposed circumstances 1 month later, we must value the option position. For the initial option value we need <img src="https://render.githubusercontent.com/render/math?math=d_{-} \text{ and } d_{%2B}">:
 
