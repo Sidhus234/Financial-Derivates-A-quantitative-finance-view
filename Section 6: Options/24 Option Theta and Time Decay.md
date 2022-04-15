@@ -98,7 +98,7 @@ As an alternative approcah, we calculate the loss by repricing the option in 1 m
 
 <p align="center">
 <img src="https://render.githubusercontent.com/render/math?math=C \( 0 ) = S N \( d_{ %2B } ) - K e^{-rT} N \( d_{-} )"><br>
-  <img src="https://render.githubusercontent.com/render/math?math== 30 N \( 1.3941 ) - 25 e^{-0.04 \( 2 / 12 )} N \( 1.2518 ) = $5.33">
+  <img src="https://render.githubusercontent.com/render/math?math== 30 N \( 1.3941 ) - 25 e^{-0.04 \( 2 / 12 )} N \( 1.2518 ) = 5.33">
 </p>
 
 Now, repricing the options 1 month later we have
@@ -117,7 +117,7 @@ and finally a call price of
 
 <p align="center">
 <img src="https://render.githubusercontent.com/render/math?math=C \( 0 ) = S N \( d_{ %2B } ) - K e^{-rT} N \( d_{-} )"><br>
-  <img src="https://render.githubusercontent.com/render/math?math== 30 N \( 1.888 ) - 25 e^{-0.04 \( 1 / 12 )} N \( 1.787 ) = $5.12">
+  <img src="https://render.githubusercontent.com/render/math?math== 30 N \( 1.888 ) - 25 e^{-0.04 \( 1 / 12 )} N \( 1.787 ) = 5.12">
 </p>
 
 The total loss on our posiiton of 50 calls is 50 * (5.33-5.12) = $10.50, showing that the theta approximation overestimated the loss.
